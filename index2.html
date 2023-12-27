@@ -17,34 +17,34 @@
             <img src="imges/hangman-boardgame.jpg" alt="">
             <svg height="250" width="200" class="figure_container">
                 <!-- Rod -->
-                <line x1="60" y1="20" x2="140" y2="20"></line>
-                <line x1="140" y1="20" x2="140" y2="50"></line>
-                <line x1="60" y1="20" x2="60" y2="230"></line>
-                <line x1="20" y1="230" x2="100" y2="230"></line>
+                <line x1="60" y1="20" x2="140" y2="20" class="d-none"></line>
+                <line x1="140" y1="20" x2="140" y2="50" class="d-none"></line>
+                <line x1="60" y1="20" x2="60" y2="230" class="d-none"></line>
+                <line x1="20" y1="230" x2="100" y2="230" class="d-none"></line>
     
                 <!-- Head -->
-                <circle cx="140" cy="70" r="20" class="figure-part"></circle>
+                <circle cx="140" cy="70" r="20" class="d-none" ></circle>
                 <!-- Body -->
-                <line x1="140" y1="90" x2="140" y2="150" class="figure-part"></line>
+                <line x1="140" y1="90" x2="140" y2="150" class="d-none"></line>
                 <!-- Arms -->
-                <line x1="140" y1="120" x2="120" y2="100" class="figure-part"></line>
-                <line x1="140" y1="120" x2="160" y2="100" class="figure-part"></line>
+                <line x1="140" y1="120" x2="120" y2="100" class="d-none"></line>
+                <line x1="140" y1="120" x2="160" y2="100" class="d-none"></line>
                 <!-- Legs -->
-                <line x1="140" y1="150" x2="120" y2="180" class="figure-part"></line>
-                <line x1="140" y1="150" x2="160" y2="180" class="figure-part"></line>
+                <line x1="140" y1="150" x2="120" y2="180" class="d-none"></line>
+                <line x1="140" y1="150" x2="160" y2="180" class="d-none"></line>
             </svg>
-            <p>word is queen</p>
-            <img src="imges/hangman-boardgame.jpg" alt="">
+            <p class="d-none" id="current_word1">word is queen</p>
+            <img src="imges/hangman-boardgame.jpg" class="d-none" id="current_img">
         </div>
-        <div class="gamesection d-flex flex-column align-items-center ">
+        <div class="gamesection d-flex flex-column align-items-center justify-content-center " id="game_section">
             <p >press eny key to get started! </p>
-            <p>wins</p>
+            <!-- <p>wins</p>
             <p>current word</p>
             <p>_ _ _ _ _ _ _ </p>
             <p>Number of guesses remaining</p>
             <p>13</p>
             <p>letters olrady guessed</p>
-            <p>1</p>
+            <p>1</p> -->
             
         </div>
     </main>
