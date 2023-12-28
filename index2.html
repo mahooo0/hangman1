@@ -17,21 +17,21 @@
             <img src="imges/hangman-boardgame.jpg" alt="">
             <svg height="250" width="200" class="figure_container">
                 <!-- Rod -->
-                <line x1="60" y1="20" x2="140" y2="20" class="d-none"></line>
-                <line x1="140" y1="20" x2="140" y2="50" class="d-none"></line>
-                <line x1="60" y1="20" x2="60" y2="230" class="d-none"></line>
-                <line x1="20" y1="230" x2="100" y2="230" class="d-none"></line>
+                <line x1="60" y1="20" x2="140" y2="20" class="d-none"id="line4" ></line>
+                <line x1="140" y1="20" x2="140" y2="50" class="d-none"id="line3"></line>
+                <line x1="60" y1="20" x2="60" y2="230" class="d-none"id="line2"></line>
+                <line x1="20" y1="230" x2="100" y2="230" class="d-none"id="line1"></line>
     
                 <!-- Head -->
-                <circle cx="140" cy="70" r="20" class="d-none" ></circle>
+                <circle cx="140" cy="70" r="20" class="d-none" id="head"></circle>
                 <!-- Body -->
-                <line x1="140" y1="90" x2="140" y2="150" class="d-none"></line>
+                <line x1="140" y1="90" x2="140" y2="150" class="d-none" id="body"></line>
                 <!-- Arms -->
-                <line x1="140" y1="120" x2="120" y2="100" class="d-none"></line>
-                <line x1="140" y1="120" x2="160" y2="100" class="d-none"></line>
+                <line x1="140" y1="120" x2="120" y2="100" class="d-none" id="arm1"></line>
+                <line x1="140" y1="120" x2="160" y2="100" class="d-none" id="arm2"></line>
                 <!-- Legs -->
-                <line x1="140" y1="150" x2="120" y2="180" class="d-none"></line>
-                <line x1="140" y1="150" x2="160" y2="180" class="d-none"></line>
+                <line x1="140" y1="150" x2="120" y2="180" class="d-none" id="leg1"></line>
+                <line x1="140" y1="150" x2="160" y2="180" class="d-none" id="leg2"></line>
             </svg>
             <p class="d-none" id="current_word1">word is queen</p>
             <img src="imges/hangman-boardgame.jpg" class="d-none" id="current_img">
@@ -48,6 +48,7 @@
             
         </div>
     </main>
+
     <script src="index.js"></script>
 </body>
 </html>
