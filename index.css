@@ -34,7 +34,7 @@ body{
   content: "CHROME";
   background-image: linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
   background-position: -680px 0;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   animation-name: chrome_effect;
   animation-duration: 6s;
   animation-timing-function: linear;
