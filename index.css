@@ -15,7 +15,7 @@ body{
 .heder h1{
   position: relative;
   margin: 0;
-  font-family: "Titillium Web", sans-serif;
+  font-family:  'Titillium Web', sans-serif;
   font-size: 200px;
   font-style: italic;
   line-height: 1;
@@ -34,7 +34,7 @@ body{
   content: "CHROME";
   background-image: linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
   background-position: -680px 0;
-  background-clip: text;
+  -webkit-background-clip: text;
   animation-name: chrome_effect;
   animation-duration: 6s;
   animation-timing-function: linear;
